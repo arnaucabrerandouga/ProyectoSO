@@ -51,6 +51,7 @@
             this.buttonConsulta2.TabIndex = 10;
             this.buttonConsulta2.Text = "Dime si este usuario existe?";
             this.buttonConsulta2.UseVisualStyleBackColor = true;
+            this.buttonConsulta2.Click += new System.EventHandler(this.buttonConsulta2_Click);
             // 
             // label1
             // 

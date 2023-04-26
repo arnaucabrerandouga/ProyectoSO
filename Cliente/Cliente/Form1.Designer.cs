@@ -36,8 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.buttonConsulta1 = new System.Windows.Forms.Button();
-            this.buttonConsulta2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonRegistrarte
@@ -110,33 +108,11 @@
             this.label4.Size = new System.Drawing.Size(0, 20);
             this.label4.TabIndex = 7;
             // 
-            // buttonConsulta1
-            // 
-            this.buttonConsulta1.Location = new System.Drawing.Point(505, 152);
-            this.buttonConsulta1.Name = "buttonConsulta1";
-            this.buttonConsulta1.Size = new System.Drawing.Size(221, 50);
-            this.buttonConsulta1.TabIndex = 8;
-            this.buttonConsulta1.Text = "Dime cuantos usuarios hay";
-            this.buttonConsulta1.UseVisualStyleBackColor = true;
-            this.buttonConsulta1.Click += new System.EventHandler(this.buttonConsulta1_Click);
-            // 
-            // buttonConsulta2
-            // 
-            this.buttonConsulta2.Location = new System.Drawing.Point(505, 244);
-            this.buttonConsulta2.Name = "buttonConsulta2";
-            this.buttonConsulta2.Size = new System.Drawing.Size(221, 50);
-            this.buttonConsulta2.TabIndex = 9;
-            this.buttonConsulta2.Text = "Dime si este usuario existe?";
-            this.buttonConsulta2.UseVisualStyleBackColor = true;
-            this.buttonConsulta2.Click += new System.EventHandler(this.buttonConsulta2_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(845, 559);
-            this.Controls.Add(this.buttonConsulta2);
-            this.Controls.Add(this.buttonConsulta1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -163,8 +139,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button buttonConsulta1;
-        private System.Windows.Forms.Button buttonConsulta2;
     }
 }
 
